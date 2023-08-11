@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<form action="{% url 'csv-uploader' %}" method="get">
+    <div align="center">
+        <input type="submit" class="button" value="Upload Now">
+</form>
+
+{% endblock content %}
